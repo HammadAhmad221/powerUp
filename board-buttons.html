@@ -1,0 +1,19 @@
+<script>
+    window.TrelloPowerUp.initialize({
+      'board-buttons': function (t, opts) {
+        return [
+          {
+            icon: 'https://static.vecteezy.com/system/resources/previews/011/602/052/non_2x/essential-flat-stroke-circular-web-icon-set-phone-contact-location-button-vector.jpg',
+            text: 'Open Form',
+            callback: function (t) {
+              // Redirect to your form URL
+              const formUrl = 'http://localhost:5173/';
+              window.open(formUrl, '_blank');
+            },
+            condition: 'always'
+          }
+        ];
+      }
+    });
+  </script>
+  

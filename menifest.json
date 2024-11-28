@@ -1,0 +1,15 @@
+{
+    "manifest_version": 1,
+    "name": "Board Button Power-Up",
+    "description": "Adds a button to the board that opens a form.",
+    "author": "Hammad Ahmad",
+    "icon": {
+      "url": "https://static.vecteezy.com/system/resources/previews/011/602/052/non_2x/essential-flat-stroke-circular-web-icon-set-phone-contact-location-button-vector.jpg"
+    },
+    "capabilities": {
+      "board-buttons": {
+        "url": "./board-buttons.html"
+      }
+    }
+  }
+  
